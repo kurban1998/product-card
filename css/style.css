@@ -77,3 +77,11 @@ body {
   left: 85px;
   z-index: -1;
 }
+
+.toggle-color-button {
+  background-color: buttonface;
+}
+
+.toggle-color-button.active {
+  background-color: darkgreen;
+}
