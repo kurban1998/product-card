@@ -18,7 +18,7 @@ compareToSpeedLight(299792457);
 let myProduct = "Молоко";
 let productPrice = 150;
 
-const tryBuyProduct = (budget) => {
+const buyProduct = (budget) => {
   if (budget>=productPrice){
     console.log(`${myProduct} приобретен. Спасибо за покупку!`);
   }
@@ -27,8 +27,8 @@ const tryBuyProduct = (budget) => {
   }
 }
 
-tryBuyProduct(200);
-tryBuyProduct(100);
+buyProduct(200);
+buyProduct(100);
 
 
 const connectionString = "";
